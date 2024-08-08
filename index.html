@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natanael Silva - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Natanael Silva" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Natanael Silva">Natanael Silva</h1>
+
+          <p class="title">Analista de Dados</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:natanael.silva125@outlook.com" class="contact-link">natanael.silva125@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+
+              <a href="tel:+5511915635527" class="contact-link">+55 (11) 91563-5527</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Aniversário</p>
+
+              <time datetime="1982-06-23">Março 06, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Endereço</p>
+
+              <address>Rua 17 de Janeiro, 1055 - Paraiso do Morumbi</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+
+          <li class="social-item">
+            <a href="https://github.com/NatanSilva31" class="social-link" title="Visite meu GitHub">
+              <ion-icon name="logo-github" aria-label="Visite meu GitHub"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="sobre">Sobre</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="Resumo">Resumo</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Portfólio</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contato">Contato</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="sobre">
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Minha atuação na área Administrativa se destaca pela integração de 
+            conhecimentos em Power BI, SQL e Python, alavancando a eficiência 
+            operacional e aprimorando a tomada de decisões estratégicas. Formando em 
+            Análise e Desenvolvimento de Sistemas pelo Senac São Paulo, aplico 
+            metodologias para a melhoria contínua dos processos.
+          </p>
+
+          <p>
+            Motivado pela busca contínua de conhecimento, minha meta é me consolidar 
+            como um Analista de Dados de referência, agregando valor e insights.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">O que eu estou fazendo</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dashboards - BI</h4>
+
+                <p class="service-item-text">
+                  Experiência na criação e manutenção de dashboards interativos e relatórios analíticos utilizando ferramentas de Business Intelligence. <br><br>
+                  Competência em coleta, integração e visualização de dados para fornecer insights acionáveis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automações</h4>
+
+                <p class="service-item-text">
+                  Desenvolvimento de automações para auxilio na rotina do dia-a-dia, utilizando softwares e programação.<br><br>
+                  Principais ferramentas utilizadas: Power BI, Power Automate e Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Aplicações - Phyton</h4>
+
+                <p class="service-item-text">
+                  Experiência no desenvolvimento de aplicações e scripts utilizando Python, incluindo automação de tarefas, análise de dados e desenvolvimento de funcionalidades customizadas.<br><br>
+                  Habilidade em trabalhar com bibliotecas e frameworks Python para criar soluções eficientes e escaláveis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Microsoft - SQL</h4>
+
+                <p class="service-item-text">
+                  Experiência em criação e otimização de consultas SQL para análise e manipulação de dados, 
+                  administração de bancos de dados, incluindo configuração, backup e recuperação. <br><br>
+                  Desenvolvimento de procedimentos armazenados e triggers.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resumo" data-page="resumo">
+
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Centro Universitário Senac - Campus Santo Amaro</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Sou estudante de Análise e Desenvolvimento de Sistemas onde adquiro habilidades práticas e teóricas 
+                em desenvolvimento de software, análise de sistemas, banco de dados e engenharia de software. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senac Francisco Matarazzo - Power BI (Funções DAX)</h4>
+
+              <span>2023 — 2023</span>
+
+              <p class="timeline-text">
+                Aperfeiçoamento de técnicas de business intelligence para analisar dados a partir das funções DAX no Power BI.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senac Francisco Matarazzo - Power BI</h4>
+
+              <span>2023 — 2023</span>
+
+              <p class="timeline-text">
+                Criação de dashboards profissionais usando o Power BI, considerando os objetivos do negócio para uma análise assertiva de dados.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiência</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Administrativo - Omint Saúde</h4>
+
+              <span>2023 — Atual</span>
+
+              <p class="timeline-text">
+                Realização de tarefas administrativas, envolvendo cadastro de novos contratos e associados. 
+                Emissão de fatura e atividades relacionadas ao Faturamento - Contas a Receber
+                Aplicação de conhecimento de tecnologia como criação de Dashboards funcionais para auxiliar na rotina do dia-a-dia.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aprendiz - Omint Saúde</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Realização de tarefas administrativas, envolvendo cadastro de novos contratos e associados. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistente de Formalização - Lev Negócios</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Auxiliar de formalização e arquivista de contratos
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Design Dashboards</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Phyton</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfólio" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Portfólio</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+      
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todos</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Aplicações</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Dashboards</button>
+            </li>
+      
+          </ul>
+      
+          <div class="filter-select-box">
+      
+            <button class="filter-select" data-select>
+      
+              <div class="select-value" data-selecct-value>Selecionar categoria</div>
+      
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+      
+            </button>
+      
+            <ul class="select-list">
+      
+              <li class="select-item">
+                <button data-select-item>Todos</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Aplicações</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Dashboards</button>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          <ul class="project-list">
+      
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="#">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/RelatorioVendas.png" alt="dashboards" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Relatório Vendas (Protótipo Figma)</h3>
+      
+                <p class="project-category">Dashboards</p>
+      
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="#">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/Financeiro.png" alt="dashboards" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">RFinanceiro</h3>
+      
+                <p class="project-category">Dashboards</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="#">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/Dashboard RH.png" alt="dashboardrh" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Dashboard RH</h3>
+      
+                <p class="project-category">Dashboards</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="aplicações">
+              <a href="https://github.com/NatanSilva31/NFS-e_Cancelamento">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/Tela Inicial.png" alt="brawlhalla" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Aplicação (Phyton)</h3>
+      
+                <p class="project-category">Aplicações</p>
+      
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="#">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/People Analytics.png" alt="dashboards" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">People Analytics (Protótipo Figma)</h3>
+      
+                <p class="project-category">Dashboards</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="dashboards">
+              <a href="#">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/Relatório Tecnico.png" alt="Relatório Mensal" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Relatório Mensal</h3>
+      
+                <p class="project-category">Dashboards</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="aplicações">
+              <a href="https://github.com/NatanSilva31/resort-imobiliaria">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assets/images/Resort.jpg" alt="task manager" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Site Imobiliária</h3>
+      
+                <p class="project-category">Aplicações</p>
+      
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      </article>
+      
+
+      </article>
+
+  <!--
+        - #CONTACT
+-->
+
+<article class="contato" data-page="contato">
+
+  <header>
+      <h2 class="h2 article-title">Contato</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+      <figure>
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.854125578931!2d-46.7231274!3d-23.6200826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51313c9e6e4d%3A0x9fdf187ac7d301f0!2sPara%C3%ADso%20do%20Morumbi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1647608789441!5m2!1spt-BR!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+      </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <div class="sidebar-info_more">
+
+      <div class="separator"></div>
+
+      <ul class="contacts-list">
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+
+            <a href="mailto:natanael.silva125@outlook.com" class="contact-link">natanael.silva125@outlook.com</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Telefone</p>
+
+            <a href="tel:+5511915635527" class="contact-link">+55 (11) 91563-5527</a>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Aniversário</p>
+
+            <time datetime="1982-06-23">Março 06, 2004</time>
+          </div>
+
+        </li>
+
+        <li class="contact-item">
+
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">Endereço</p>
+
+            <address>Rua 17 de Janeiro, 1055 - Paraiso do Morumbi</address>
+          </div>
+
+        </li>
+
+      </ul>
+
+      <div class="separator"></div>
+
+      <ul class="social-list">
+
+        <li class="social-item">
+          <a href="https://github.com/NatanSilva31" class="social-link" title="Visite meu GitHub">
+            <ion-icon name="logo-github" aria-label="Visite meu GitHub"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+</article>
+
+
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
