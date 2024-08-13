@@ -2,16 +2,16 @@
 
 
 
-// element toggle function
+// função de alternância de elemento
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
 
 
-// sidebar variables
+// variáveis da barra lateral
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
-// sidebar toggle functionality for mobile
+// funcionalidade de alternância da barra lateral para dispositivos móveis
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
 
