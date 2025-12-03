@@ -1,4 +1,3 @@
-
 :root {
 
   /**
@@ -940,7 +939,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 250px; /* ALTERADO: Fixado em 250px */
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -987,7 +986,8 @@ main {
 .project-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* ALTERADO: Para cortar sem distorcer */
+  object-position: top center; /* ALTERADO: Foco no topo da imagem */
   transition: var(--transition-1);
 }
 
@@ -1230,8 +1230,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * #PORTFOLIO, BLOG 
    */
-
-  .project-img,
+  
+  /* ALTERADO: Removido .project-img para não perder a altura fixa */
   .blog-banner-box { height: auto; }
 
 }
@@ -1858,8 +1858,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * RESUME
-	 */
+   * RESUME
+   */
 
   .timeline-text { max-width: 700px; }
 
