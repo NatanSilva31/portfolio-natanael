@@ -1864,3 +1864,64 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* Para telas mobile - seção de contatos */
+@media (max-width: 768px) {
+  
+  .contact-form {
+    display: block !important;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* ADICIONADO: Garantir que contatos na página de contato apareçam */
+  .contato .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    width: 100%;
+  }
+
+  .contacts-list {
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+  }
+
+  .contact-item {
+    display: flex !important;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    background: var(--onyx);
+    border-radius: 8px;
+    border: 1px solid var(--jet);
+  }
+
+  .contact-info {
+    flex: 1;
+  }
+
+  .contact-title {
+    color: var(--light-gray-70);
+    font-size: var(--fs-8);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+
+  .contact-info :is(.contact-link, time, address) {
+    color: var(--white-2);
+    font-size: var(--fs-7);
+  }
+
+  .mapbox {
+    margin-bottom: 30px;
+  }
+
+  .mapbox iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+}
