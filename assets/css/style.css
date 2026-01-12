@@ -138,7 +138,11 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+/* cor do texto padrão (legível sobre fundo escuro) */
+body {
+  background: var(--smoky-black);
+  color: var(--light-gray);
+}
 
 
 
@@ -1873,6 +1877,17 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .timeline-text { max-width: 700px; }
+
+  /* estilo para listas dentro da seção de serviços */
+  .service-item-text {
+    padding-left: 18px;
+    color: var(--light-gray);
+    font-weight: var(--fw-300);
+  }
+  .service-item-text li {
+    list-style: disc;
+    margin-bottom: 8px;
+  }
 
 }
 
