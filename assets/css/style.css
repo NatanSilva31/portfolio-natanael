@@ -812,6 +812,17 @@ main {
   line-height: 1.6;
 }
 
+/* Mostrar bullets e espaçamento em listas de atividades da experiência */
+.timeline-text {
+  padding-left: 18px; /* espaço para marcador */
+}
+.timeline-text li {
+  list-style: disc; /* reativar marcador apenas aqui */
+  margin-bottom: 8px;
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+}
+
 
 /**
  * skills 
